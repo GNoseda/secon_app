@@ -3,4 +3,5 @@ Rails.application.routes.draw do
   get  "users/login"
   get  "pages/about_us"
   root "pages#index"
+  get  "pages/test"
 end
