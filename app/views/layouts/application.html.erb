@@ -13,9 +13,11 @@
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
   </head>
 
-  <body>
+  <body class>
     <%= render 'shared/navbar'%>
-    <%= yield %>
+    <div class="wrapper style1 ">
+      <%= yield %>
+    </div>
     <%= render 'shared/footer'%>
   </body>
 </html>
